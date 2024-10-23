@@ -1,78 +1,109 @@
+/* General Body Styling */
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #e9ecef;
-  line-height: 1.6;
+  background-color: #f8f9fa;
   color: #333;
+  line-height: 1.7;
 }
 
+/* Image Styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Header Styling */
 header {
-  background-color: #007bff;
+  background-color: #343a40;
   color: #fff;
   text-align: center;
-  padding: 60px 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 80px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-  font-size: 3em;
+  font-size: 3.5em;
   margin: 0;
-  font-weight: bold;
-  letter-spacing: 1px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
 }
 
 header p {
+  font-size: 1.4em;
   margin: 15px 0;
-  font-size: 1.2em;
 }
 
 header a {
   background-color: #28a745;
-  color: #fff;
-  padding: 12px 30px;
+  color: white;
+  padding: 15px 40px;
   text-decoration: none;
-  border-radius: 50px;
-  font-size: 1.1em;
-  transition: background-color 0.3s ease;
+  border-radius: 40px;
+  font-size: 1.2em;
+  transition: all 0.4s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 header a:hover {
   background-color: #218838;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+/* Main Content */
 main {
-  padding: 40px 20px;
-  max-width: 1200px;
+  padding: 60px 30px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
 section {
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 section h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   color: #007bff;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #0056b3;
+  padding-bottom: 10px;
 }
 
 section p {
-  font-size: 1.1em;
-  line-height: 1.8;
+  font-size: 1.2em;
+  line-height: 1.85;
+  color: #555;
 }
 
+/* Footer Styling */
 footer {
-  background-color: #007bff;
+  background-color: #343a40;
   color: white;
   text-align: center;
-  padding: 30px 20px;
-  font-size: 0.9em;
-  border-top: 3px solid #0056b3;
+  padding: 40px 20px;
+  font-size: 0.95em;
+  border-top: 4px solid #0056b3;
 }
 
 footer a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: underline;
 }
 
