@@ -23,17 +23,43 @@
 
    <style type="text/css" media="screen">
 
-   	#styles { 
-   		background: white;
-   		padding-top: 12rem;
-   		padding-bottom: 12rem;
-   	}
-   	#styles .row {
-   		max-width: 1024px;
-     	}
-     	#styles .section-intro {
-   		max-width: 800px;
-     	}
+   	/* main.css or base.css */
+
+/* Base Styles */
+#styles { 
+  background: white;
+  padding: 6rem 2rem; /* Adjusted for better mobile compatibility */
+}
+
+#styles .row {
+  max-width: 90%;
+  margin: 0 auto; /* Center the row */
+}
+
+#styles .section-intro {
+  max-width: 100%;
+}
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+  #styles { 
+    padding: 8rem 4rem;
+  }
+  
+  #styles .section-intro {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #styles { 
+    padding: 12rem 6rem;
+  }
+  
+  #styles .section-intro {
+    max-width: 800px;
+  }
+}
       	
    </style>       
 
